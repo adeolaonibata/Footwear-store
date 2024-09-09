@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3rem; 
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 15px;
+    text-shadow: 1px 2px 1px gray;
+}
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.cartItem{
+    width: 700px;
+    height: 190px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    box-shadow: 1px 1px 1px 2px lightgray;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.cartItem img{
+    border-radius: 10px;
+}
+.cartItem .description {
+  line-height: 45px;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+button.minus, .plus{
+    width: 25px;
+    height: 30px;
+    margin: 10px;
+}
+input{
+    width: 50px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.subTotal{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+    word-spacing: 15px;
+}
+.checkoutBttn {
+    display: flex;
+    gap: 35px;
+    margin: 10px;
+}
+.btn{
+    padding: 15px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+    background-color: black;
+    color: white;
+    word-spacing: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
